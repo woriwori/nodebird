@@ -1,7 +1,12 @@
 {
-    "name": "nodebird",
+    "name": "nodebird-front",
     "version": "0.1.0",
-    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
@@ -23,12 +28,6 @@
         "eslint-plugin-react-hooks": "^1.6.0",
         "nodemon": "^1.19.0",
         "webpack": "^4.30.0"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": "react-app"
