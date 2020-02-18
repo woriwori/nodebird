@@ -4,25 +4,7 @@
     "dependencies": {
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.3.2",
-        "@testing-library/user-event": "^7.1.2",
-        "antd": "^3.17.0",
-        "next": "^8.1.0",
-        "next-redux-wrapper": "^3.0.0-alpha.2",
-        "prop-types": "^15.7.2",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
-        "react-redux": "^7.1.0-alpha.4",
-        "react-scripts": "3.4.0",
-        "redux": "^4.0.1"
-    },
-    "devDependencies": {
-        "eslint": "^5.16.0",
-        "eslint-plugin-import": "^2.17.2",
-        "eslint-plugin-react": "^7.12.4",
-        "eslint-plugin-react-hooks": "^1.6.0",
-        "gh-pages": "^2.2.0",
-        "nodemon": "^1.19.0",
-        "webpack": "^4.30.0"
+        "@testing-library/user-event": "^7.1.2"
     },
     "scripts": {
         "dev": "next",
