@@ -19,7 +19,7 @@ export const LOG_IN_SUCCESS = 'LOG_IN_SUCCESS'; // 액션의 이름
 export const LOG_IN_FAILURE = 'LOG_IN_FAILURE'; // 액션의 이름
 export const LOG_OUT = 'LOG_OUT';
 
-export const signUpAction = data => {
+export const signUpAction = (data) => {
     return {
         type: SIGN_UP,
         data,
@@ -30,7 +30,7 @@ export const signUpSuccess = {
     type: SIGN_UP_SUCCESS,
 };
 
-export const loginAction = data => {
+export const loginAction = (data) => {
     return {
         type: LOG_IN,
         data,
@@ -39,7 +39,7 @@ export const loginAction = data => {
 export const logoutAction = {
     type: LOG_OUT,
 };
-export const signUp = data => {
+export const signUp = (data) => {
     return {
         type: SIGN_UP,
         data,
@@ -53,7 +53,7 @@ export default (state = initialState, action) => {
                 ...state,
                 isLoggedIn: true,
                 user: dummyUser,
-                loginData: action.data,
+                loginData: action.data, // 이렇게 action 의 data가 사용됨.
             };
         }
         case LOG_OUT: {

@@ -7,7 +7,7 @@ import LoginForm from './LoginForm';
 import UserProfile from './UserProfile';
 
 const AppLayout = ({ children }) => {
-    const { isLoggedIn } = useSelector(state => state.user);
+    const { isLoggedIn } = useSelector((state) => state.user);
     return (
         <div>
             <Menu mode="horizontal">
@@ -33,7 +33,7 @@ const AppLayout = ({ children }) => {
                     {children}
                 </Col>
                 <Col xs={24} md={6}>
-                    <Link href="https://www.zerocho.com">
+                    <Link href="//www.zerocho.com">
                         <a target="_blank">Made by ZeroCho</a>
                     </Link>
                 </Col>
