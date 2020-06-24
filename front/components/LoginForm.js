@@ -11,9 +11,10 @@ const LoginForm = () => {
     const dispatch = useDispatch();
 
     const onSubmitForm = useCallback(
-        e => {
+        (e) => {
             e.preventDefault();
             dispatch(
+                // 액션을 디스패치 하는 방법
                 loginAction({
                     id,
                     password,
